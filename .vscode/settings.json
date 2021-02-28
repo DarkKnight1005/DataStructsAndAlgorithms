@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "vector": "cpp",
+        "utility": "cpp",
+        "iostream": "cpp",
+        "chrono": "cpp",
+        "type_traits": "cpp",
+        "algorithm": "cpp",
+        "ostream": "cpp",
+        "iterator": "cpp",
+        "__hash_table": "cpp",
+        "__tree": "cpp",
+        "map": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "iomanip": "cpp"
+    }
+}
