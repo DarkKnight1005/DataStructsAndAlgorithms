@@ -51,30 +51,6 @@ int main() {
             answers[3] = abs(*(vectMinMax.end() - 1) - *(vect.end() - 1));
             maxElem = *max_element(answers, answers + 4);
             pos = *find(answers, answers+4, maxElem);
-            // cout<<maxElem<<" "<<pos<<endl;
-            // copy(answers, answers+4, ostream_iterator<int>(cout, " "));
-            // cout<<endl;
-            // switch (pos)
-            // {
-            // case 0:
-            //     vectMinMax.insert(vectMinMax.begin(), *vect.begin());
-            //     vect.erase(vect.begin());
-            //     break;
-            // case 1:
-            //     vectMinMax.insert(vectMinMax.begin(), *(vect.end() - 1));
-            //     vect.erase(vect.end() - 1);
-            //     break;
-            // case 2:
-            //     vectMinMax.push_back(*vect.begin());
-            //     vect.erase(vect.begin());
-            //     break;
-            // case 3:
-            //     vectMinMax.push_back(*(vect.end() - 1));
-            //     vect.erase(vect.end() - 1);
-            //     break;
-            // default:
-            //     break;
-            // }
 
             if(maxElem == answers[0]){
                 vectMinMax.insert(vectMinMax.begin(), *vect.begin());

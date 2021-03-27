@@ -22,7 +22,7 @@ int main() {
 
 	for (i = 0; i < n - 1; i++){
         double delta = vect[i + 1] - vect[i];
-         ans = max(ans, delta);
+        ans = max(ans, delta);
     }
     
     ans /= 2;
